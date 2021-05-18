@@ -1,0 +1,161 @@
+<mjml>
+  <mj-head>
+    <mj-title>Perfect Fit - shop for fitness goods</mj-title>
+    <mj-font name="Iter" href="https://fonts.googleapis.com/css2?family=Inter&display=swap" />
+    <mj-style>
+      *,
+      *::before,
+      *::after {
+        font-family: "Iter", sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Iter", sans-serif;
+        background: #fafafa;
+        color: #515759;
+        font-weight: normal;
+        font-size: 16px;
+        padding: 48px 60px 58px;
+        line-height: 1.1;
+      }
+
+      div,
+      p {
+        font-size: inherit;
+        color: #515759 !important;
+        margin: 0;
+      }
+
+      .goods-img img {
+        border-radius: 8px;
+      }
+
+      .button-product {
+        display: inline-block;
+        border: 1px solid #1890ff;
+        border-radius: 4px;
+        padding: 1px 15px;
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: normal;
+        vertical-align: text-top;
+        margin-left: 10px;
+      }
+
+      .title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 22px;
+        color: #0c1014;
+        margin: 24px 0 16px;
+      }
+
+      .good {
+        margin-bottom: 48px !important;
+      }
+
+      .footer {
+        padding-top: 16px;
+        border-top: 1px solid #d6d7d9;
+      }
+
+      .footer-copy {
+        margin-top: 15px;
+      }
+
+      .link-style {
+        font-size: inherit;
+        color: #1890ff;
+        text-decoration: none;
+      }
+
+      .link-style:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 480px) {
+        body {
+          padding: 48px 20px 58px;
+        }
+        .title {
+          font-size: 20px;
+          line-height: 0.95;
+        }
+      }
+      @media (max-width: 380px) {
+        .title {
+          font-size: 18px;
+        }
+      }
+    </mj-style>
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-button inner-padding="1px 15px" background-color="transparent">
+        <mj-text color="#515759" padding="24px 0 16px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body width="640px">
+    <mj-section>
+      <mj-column>
+        <mj-image align="center" width="114px" height="24px" src="img/logo.png" alt="Logotype" />
+        <mj-text padding="32px 0" align="center">
+          <p>Hi Sam! Here’s your weekly updates 👀️</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper css-class="goods">
+      <mj-section css-class="good">
+        <mj-column>
+          <mj-image css-class="goods-img" src="img/img1.png" alt="img1" />
+          </mj-image>
+          <mj-text>
+            <h2 class="title">Here Are the Best Sneakers of 2019<a class="button-product" href="#!">New</a></h2>
+          </mj-text>
+          <mj-text>
+            <p>We’re still quite early into the year, but it’s never too soon to highlight our picks for the best sneakers of the year, so far.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section css-class="good">
+        <mj-column>
+          <mj-image css-class="goods-img" src="img/img2.png" alt="img2" />
+          </mj-image>
+          <mj-text>
+            <h2 class="title">8 Drops You Don't Want to Miss This Week</h2>
+          </mj-text>
+          <mj-text>
+            <p>Supreme Fall 2019 Collection Week 2, Palace Fall 2019 Collection Week 5, Travis Scott: Look Mum I Can Fly Customizable Merch and more.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section css-class="good">
+        <mj-column>
+          <mj-image css-class="goods-img" src="img/img3.png" alt="img3" />
+          </mj-image>
+          <mj-text>
+            <h2 class="title">We opened a store in Warsaw</h2>
+          </mj-text>
+          <mj-text>
+            <p>The store focuses on up-and-coming brands that are doing really innovative and exciting things that may ruffle a few feathers while setting the trends and inspiring today’s youth culture.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section css-class="footer">
+      <mj-column>
+        <mj-text>
+          <p>
+            This email was sent to you as a registered member of prfctfit.com.
+            To update your emails preferences <a class="link-style" href="#!">click here.</a>
+            Use of the service and website is subject to our <a class="link-style" href="#!">Terms of Use and Privacy Statement.</a>
+          </p>
+          <p class="footer-copy">© 2019 PRFCT FIT. All rights reserved</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
